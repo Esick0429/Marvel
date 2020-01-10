@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>复仇者联盟</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<style type="text/css">
+        *{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        ul,li{list-style: none;}
+        body{margin: auto; background-color: #000;}
+        .banner{height:800px; margin:auto; z-index: -1; background: url(images/banner1.jpg) no-repeat center; }
+        .contect{width:900px; height:2350px; background-color:#aaa; border:2px solid #eee;box-shadow: 2px 2px 5px #999; margin:20px auto; border-radius:15px; overflow:hidden;}
+        .title{font-size:24px; color:#fff; background-color:red;margin:auto; width:900px; height:40px; text-align: center; line-height: 40px; }
+        .js{width: 700px; height: 310px; margin: 20px auto auto; box-shadow: 2px 2px 5px #666; background-color: #999; padding: 10px}
+        .js_pic{height:140px; width:180px; background-image:url(images/fcz.jpg); float: left; margin: auto 20px 20px auto; box-shadow: 2px 2px 5px #ccc;}
+        p{margin-top: 6px; letter-spacing: 2px;text-indent: 2em;}
+        .xxjs{width:800px; height:900px; margin: 30px auto auto;}
+        .box{width:800px; height:285px; margin: auto auto 40px; background-color: #bbb;}
+        .b_head{width:800px; height:40px; border-bottom: 2px red solid; background-color: #aaa; border-radius: 9px; overflow: hidden;}
+        .b_h_title{width:140px; background-color: red; float:left; font-size:24px; line-height:40px; text-align: center; color:#fff}
+        .b_mid{width:780px; margin:9px auto; height:230px;}
+        .b_m_left{float: left; height:198px; width:198px; margin-right:20px;}
+        .b_m_right{float:left; height:198px; width:552px; font-size:20px;text-indent: 2em;}
+</style>
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<!--<link href="http://fonts.googleapis.com/css?family=Playball&amp;subset=latin-ext" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>-->
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+    <!-- banner -->
+	<div class="banner about-banner">
+            <div class="header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="w3layouts-logo">
+                            <h1>
+                                <a href="index.html"> Marvel<span><sup>Van</sup></span></a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="agileinfo-social-grids">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="top-nav">
+                            <nav class="navbar navbar-default">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li><a class="active list-border" href="index.html">主页</a></li>
+                                            <li><a href="about.html">最新资讯</a></li>
+                                            <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">电影宇宙<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="hvr-bounce-to-bottom" href="Chronicle.html">编年史</a></li>
+                                                    <li><a class="hvr-bounce-to-bottom" href="blog.html">电影简介</a></li>
+                                                    <li><a class="hvr-bounce-to-bottom" href="single.html">影评</a></li>          
+                                                </ul>
+                                            </li>	
+                                            <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">超级英雄<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="hvr-bounce-to-bottom" href="avengers.html">复仇者联盟</a></li>
+                                                    <li><a class="hvr-bounce-to-bottom" href="fantastic.html">神奇四侠</a></li>       
+                                                </ul>
+                                            </li>							
+                                                <!-- <li><a href="gallery.html">超级英雄</a></li> -->
+                                            <li><a href="gallery.html">资源下载</a></li>
+                                            <li><a class="list-border1" href="contact.html">关于我们</a></li>
+                                        </ul>	
+                                        <div class="clearfix"> </div>
+                                    </div>	
+                                </nav>		
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //banner -->
+
+
+    <div class="banner"></div>
+    <div class="contect">
+        <div class="title">复仇者联盟</div>
+        <div class="js">
+            <div class="js_pic"></div>
+                    <p>复仇者联盟（Avengers）是美国漫威漫画旗下超级英雄团队，初次登场于《复仇者联盟》第1期（1963年9月），由编剧斯坦·李和画家杰克·科比联合创造，被称为是”地球上最强超级英雄组合“。</p>
+                    <p>创始人为钢铁侠、雷神托尔、绿巨人、蚁人和黄蜂侠。从一开始复仇者联盟的成员名单便不断的更动，第二期绿巨人就离队，改由美国队长加入。不断更改的成员名单已成为复仇者联盟的特点，但一个主题从未变过，那就是专与单一超级英雄无法应付的敌人作战，也是他们著名战斗口号“复仇者，集合！”的由来。</p>
+                    <p>复仇者联盟的成员包括人类、机器人、神、外星人、灵异生物，甚至还有改过自新的反派。虽然作风迥异，甚至因此常造成内部纷争，但他们总能团结成为一个互补的战队，打击特别强大的威胁势力。</p>
+        </div>
+        <div class="xxjs">
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">钢铁侠</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/gtx.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>托尼·斯塔克是斯塔克工业的继承人，他的父亲霍华德是神盾局的创始人之一。在一次绑架事故中，托尼发明了一套动力增强装甲，这套装备由金钛合金制成，有一定的局限性，会损耗。穿上盔甲后，托尼变身成了复仇者联盟中惩恶扬善的钢铁侠。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">美国队长</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/mgdz.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>正义热血的美国队长原是二战时期一名瘦弱的普通士兵，因参加“超级战士重生计划”成为唯一一个成功的实验品而拥有了超越常人的体能。在二战中他曾立下赫赫战功，但在驱逐红骷髅的最终战役里，罗杰斯遭重创而被冰封，约七十年后才重新醒来。随后他加入了复仇者联盟。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">绿巨人</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/ljr.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>科学家布鲁斯·班纳博士在一次实验中误被伽马射线所伤，随后他便发现，当自己陷入愤怒或恐惧的情绪中时，不能控制的心跳加速会让自己变身成为一个体格庞大、力量无穷但不受意志控制的绿色巨人。班纳博士始终在寻找如何治疗这种“病变”，他因拥有可怕的力量而被应征加入复仇者联盟。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">雷神</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/ls.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>复仇者联盟中的非地球人类成员，对弟弟洛基爱恨交织。索尔是奥丁的亲生儿子，阿斯加德的王位继承人。他年轻气盛，鲁莽耿直，曾因自负被流放地球。索尔关心的主要问题是维护包括阿斯加德与地球在内的九大世界的和平，以及搞好与兄弟洛基的关系。祸不单行，这两件事同时出了麻烦。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">鹰眼</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/yy.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>他是在马戏团长大的孤儿，因超一流的箭术被神盾局指挥官尼克·弗瑞慧眼识珠，加入复仇者联盟。鹰眼侠行动迅速果敢，个性低调沉稳，出招百发百中，极其擅长狙击。在漫威漫画故事中，鹰眼侠曾与黑寡妇有绯闻。在电影《雷神》里，鹰眼曾被安排在高空射杀索尔。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">黑寡妇</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/hgf.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>原是秘密组织神盾局的一名俄国籍女探员，体态婀娜面容姣好，头脑清晰行动敏捷，身手不凡强硬凶狠，是神盾局的精英特工。娜塔莎最初被安排在斯塔克工业内部作为卧底，负责监视钢铁侠托尼·斯塔克，后正式加入复仇者联盟。她也是这次成军的复仇者联盟中唯一的女性成员。</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    <!-- footer -->
+	<div class="footer">
+			<div class="container">
+				<div class="agile-footer-grids">
+					<div class="col-md-3 w3-agile-footer-grid">
+						<h3>About</h3>
+						<p>漫威的创立者是出版商马丁·古德曼，古德曼早先致力于创办通俗杂志，题材涵盖西部故事、侦探、冒险和科幻等许多方面。到1938年，他决定寻找新的发展方向——新奇，华丽，还要有引人入胜的激烈场面——漫画正是这样的东西。</p>
+					</div>
+					<div class="col-md-3 w3-agile-footer-grid">
+						<h3>Events</h3>
+						<ul>
+							<li>1939 <a href="single.html">时代漫画（Timely Comics）</a></li>
+							<li>1951 <a href="single.html">亚特拉斯漫画（Atlas Comics）</a></li>
+							<li>1961 <a href="single.html">惊奇漫画（Marvel Comics）</a></li>
+							<li>2010 <a href="single.html">Marvel宣布译名为漫威</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 w3-agile-footer-grid">
+						<h3>Navigation</h3>
+						<ul>
+							<li class="text"><a href="about.html">About</a></li>
+							<li class="text"><a href="typography.html">Typography</a></li>
+							<li class="text"><a href="icons.html">Icons</a></li>
+							<li class="text"><a href="gallery.html">Gallery</a></li>
+							<li class="text"><a href="blog.html">Blog</a></li>
+							<li class="text"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				<div class="col-md-3 w3-agile-footer-grid">
+					<h3>Newsletter</h3>
+					<form action="#" method="post">
+						<input type="email" id="mc4wp_email" name="EMAIL" placeholder="Enter your email here" required="">
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- parallax -->
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		var nav=document.getElementsByClassName('two')
+		var bian=document.getElementsByClassName('bian')
+			for(let i=1;i<nav.length;i++){
+				nav[i].onclick=function(){
+					bian[i-1].style.display='none'
+					bian[i].style.display='block'
+				}
+			}
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+		})
+    </script>
+	<!-- //parallax -->
+</body>	
+</html>

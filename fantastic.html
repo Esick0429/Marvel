@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>神奇四侠</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<style type="text/css">
+    *{margin: 0;padding: 0;}
+    a{text-decoration: none;}
+    ul,li{list-style: none;}
+    body{margin: auto; background-color: #000;}
+    .banner{height:800px; margin:auto; z-index: -1; background: url(images/sqsx1.jpg) no-repeat center; }
+    .contect{width:900px; height:1650px; background-color:#aaa; border:2px solid #eee;box-shadow: 2px 2px 5px #999; margin:20px auto; border-radius:15px; overflow:hidden;}
+    .title{font-size:24px; color:#fff; background-color:red;margin:auto; width:900px; height:40px; text-align: center; line-height: 40px; }
+    .js{width: 700px; height: 300px; margin: 20px auto auto; box-shadow: 2px 2px 5px #666; background-color: #999; padding: 10px}
+    .js_pic{height:140px; width:180px; background-image:url(images/sqsx2.jpg); float: left; margin: auto 20px 20px auto; box-shadow: 2px 2px 5px #ccc;}
+    p{text-indent: 2em;margin-top: 6px; letter-spacing: 2px;}
+    .xxjs{width:800px; height:900px; margin: 30px auto auto;}
+    .box{width:800px; height:260px; margin: auto auto 40px; background-color: #bbb;}
+    .b_head{width:800px; height:40px; border-bottom: 2px red solid; background-color: #aaa; border-radius: 9px; overflow: hidden;}
+    .b_h_title{width:140px; background-color: red; float:left; font-size:24px; line-height:40px; text-align: center; color:#fff}
+    .b_mid{width:780px; margin:9px auto; height:198px;}
+    .b_m_left{float: left; height:198px; width:198px; margin-right:20px;}
+    .b_m_right{float:left; height:198px; width:552px; font-size:20px;}
+</style>
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<!--<link href="http://fonts.googleapis.com/css?family=Playball&amp;subset=latin-ext" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>-->
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- banner -->
+	<div class="banner about-banner">
+            <div class="header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="w3layouts-logo">
+                            <h1>
+                                <a href="index.html"> Marvel<span><sup>Van</sup></span></a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="agileinfo-social-grids">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="top-nav">
+                            <nav class="navbar navbar-default">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li><a class="active list-border" href="index.html">主页</a></li>
+                                        <li><a href="about.html">最新资讯</a></li>
+                                        <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">电影宇宙<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="hvr-bounce-to-bottom" href="Chronicle.html">编年史</a></li>
+                                                <li><a class="hvr-bounce-to-bottom" href="blog.html">电影简介</a></li>
+                                                <li><a class="hvr-bounce-to-bottom" href="single.html">影评</a></li>          
+                                            </ul>
+                                        </li>	
+                                        <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">超级英雄<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="hvr-bounce-to-bottom" href="avengers.html">复仇者联盟</a></li>
+                                                <li><a class="hvr-bounce-to-bottom" href="fantastic.html">神奇四侠</a></li>       
+                                            </ul>
+                                        </li>							
+                                            <!-- <li><a href="gallery.html">超级英雄</a></li> -->
+                                        <li><a href="gallery.html">资源下载</a></li>
+                                        <li><a class="list-border1" href="contact.html">关于我们</a></li>
+                                    </ul>	
+                                    <div class="clearfix"> </div>
+                                </div>	
+                            </nav>		
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //banner -->
+    <div class="banner"></div>
+    <div class="contect">
+        <div class="title">神奇四侠</div>
+        <div class="js">
+            <div class="js_pic"></div>
+                    <p>神奇四侠（Fantastic Four）是美国漫威漫画旗下超级英雄团队，初次登场于《神奇四侠》（Fantastic Four）第1期（1961年11月），由神奇先生、隐形女侠、霹雳火、石头人四名具有超能力的人组成。诞生以来一直畅销至今，打出了“世界上最伟大的漫画”的口号，台湾老三台70年代以四超人之名播出此作的改编动画。</p>
+                    <p>神奇四侠是漫威在60年代复兴时的开山之作，讲述四位科学家由于受到宇宙射线辐射而变异，获得四种不同超能力，从此成立一个团队，既打击犯罪，也进行科学探险，解决各种离奇的问题。这支队伍实际上是一个家庭，成员身份公开，广受世人欢迎。他们中间的一对恋人是主流英雄中最早结婚并有孩子的。神奇四侠以良好的形象开创了现代英雄兴旺的时期，其他的英雄，包括复仇者这样的队伍都视他们为前辈楷模。</p>
+
+        </div>
+        <div class="xxjs">
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">神奇先生</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/sqxs.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>真名是里德·理查兹（Reed Richards）,天才科学家，神奇四侠的领袖。拥有天才的智力，身体有超级的延伸拉伸自我可塑性，基本上可以变为各种形状。对于几乎一切物理攻击的免疫（包括电击）。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">神奇女侠</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/sqnx.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>真名是苏珊·斯通·理查兹（Susan Storm Richards）,里德的妻子。最初她只能控制光波，令她自己和其他人隐形。但之后她已经可以操纵她所创造的隐形力场，更可以以高速飞翔，控制物体的活动，以及发射出强大有力的能量盾和武器。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">霹雳火</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/blh.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>真名是乔纳森·“约翰尼”·斯通（Jonathan Johnny Storm），苏珊的弟弟。他的身体能够产生极限上千度高温的烈焰，而且可以飞行，发射火焰，并且免疫火焰（他的火焰是自然火，没有氧气无法燃烧，而且如果遇到大量的水也会被浇灭）。</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+            <div class="b_head"><div class="b_h_title">石头人</div></div>
+            <div class="b_mid">
+                <div class="b_m_left"><img src="images/str.png" /></div>
+                <div class="b_m_right">
+                   <br> 介绍：<br>
+                    <p>真名是本·格瑞姆（Ben Grimm），里德的好友。遭到射线放射后外表变为橙色石头的样子，使得他的身体异常的抗击打，同时拥有力大无穷的超能力。原本得到了五吨的力量，通过训练慢慢增加至85吨、90吨乃至100吨。富有幽默感。</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+	<div class="footer">
+			<div class="container">
+				<div class="agile-footer-grids">
+					<div class="col-md-3 w3-agile-footer-grid">
+						<h3>About</h3>
+						<p>漫威的创立者是出版商马丁·古德曼，古德曼早先致力于创办通俗杂志，题材涵盖西部故事、侦探、冒险和科幻等许多方面。到1938年，他决定寻找新的发展方向——新奇，华丽，还要有引人入胜的激烈场面——漫画正是这样的东西。</p>
+					</div>
+					<div class="col-md-3 w3-agile-footer-grid">
+						<h3>Events</h3>
+						<ul>
+							<li>1939 <a href="single.html">时代漫画（Timely Comics）</a></li>
+							<li>1951 <a href="single.html">亚特拉斯漫画（Atlas Comics）</a></li>
+							<li>1961 <a href="single.html">惊奇漫画（Marvel Comics）</a></li>
+							<li>2010 <a href="single.html">Marvel宣布译名为漫威</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 w3-agile-footer-grid">
+						<h3>Navigation</h3>
+						<ul>
+							<li class="text"><a href="about.html">About</a></li>
+							<li class="text"><a href="typography.html">Typography</a></li>
+							<li class="text"><a href="icons.html">Icons</a></li>
+							<li class="text"><a href="gallery.html">Gallery</a></li>
+							<li class="text"><a href="blog.html">Blog</a></li>
+							<li class="text"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				<div class="col-md-3 w3-agile-footer-grid">
+					<h3>Newsletter</h3>
+					<form action="#" method="post">
+						<input type="email" id="mc4wp_email" name="EMAIL" placeholder="Enter your email here" required="">
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- parallax -->
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		var nav=document.getElementsByClassName('two')
+		var bian=document.getElementsByClassName('bian')
+			for(let i=1;i<nav.length;i++){
+				nav[i].onclick=function(){
+					bian[i-1].style.display='none'
+					bian[i].style.display='block'
+				}
+			}
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+		})
+    </script>
+	<!-- //parallax -->
+</body>	
+</html>
